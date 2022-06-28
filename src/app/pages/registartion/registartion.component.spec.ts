@@ -34,7 +34,7 @@ fdescribe('RegistartionComponent', () => {
   });
 
   it('should call service', () => {
-    const userServiceSpy = spyOn(userService , 'createUserData');
+    const userServiceSpy = spyOn(userService , 'createUserData').and.callThrough();
     component.onSubmit();
 
     expect(userServiceSpy).toHaveBeenCalledTimes(1);
