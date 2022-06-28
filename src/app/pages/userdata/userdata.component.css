@@ -1,0 +1,72 @@
+table {
+  width: 100%;
+}
+
+.table-header {
+  background-color: #cccccc;
+}
+
+.mat-column-code {
+  padding: 15px;
+  font-size: 15px;
+}
+
+.mat-column-firstname {
+  padding: 15px;
+  font-size: 15px;
+}
+
+.mat-column-lastname {
+  padding: 15px;
+  font-size: 15px;
+}
+
+.mat-column-dob {
+  padding: 15px;
+  font-size: 15px;
+}
+
+.mat-column-action {
+  padding: 15px;
+  font-size: 15px;
+}
+
+.title-padding {
+  padding: 20px;
+}
+
+.btn-style {
+  height: 35px;
+}
+
+/* .mat-row button {
+  opacity: 0;
+} */
+
+.mat-row:hover button {
+  opacity: 1;
+  background-color: #666666;
+  color: #f7f7f7;
+  border-radius: 20px !important;
+}
+
+.table-container {
+  flex: 1 1 auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  overflow: auto;
+  max-height: calc(100vh - 155px);
+  margin-bottom: 10px;
+
+  /* .mat-header-row {
+    min-height: 54px;
+    font-weight: 400%;
+  }
+  .mat-paginator {
+    min-height: 54px;
+  } */
+}
+
+::ng-deep .custom-style{
+  background-color:brown;
+  color:white;
+}

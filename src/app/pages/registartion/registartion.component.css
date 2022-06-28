@@ -1,0 +1,23 @@
+.custom.mat-card {
+  margin-bottom: 2cm;
+  width: auto;
+  height: auto;
+}
+
+.form-field-font-size {
+  font-size: 15px;
+}
+
+.custome-width {
+  max-width: 850px;
+}
+
+.title-padding{
+  padding: 20px;
+}
+
+.btn-style {
+  padding: 10px;
+  margin: 10px;
+  width: 190px;
+}
